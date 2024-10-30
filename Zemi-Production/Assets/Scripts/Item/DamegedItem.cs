@@ -9,10 +9,25 @@ namespace Item
 
         private GameObject repopItem;
 
+        private float attackDamage;
+
+        [SerializeField] private DamagePrams damage;
         private void Start()
         {
             startPosition = transform.position;
             repopItem = this.gameObject;
+            if (gameObject.CompareTag("Box"))
+            {
+                attackDamage = damage.BoxDamage;
+            }
+            else if (gameObject.CompareTag("Bottle"))
+            {
+                attackDamage = damage.BottleDamage;
+            }
+            else if (gameObject.CompareTag("Ball"))
+            {
+                attackDamage = damage.BallDamage;
+            }
         }
 
         private void Repop()
@@ -27,6 +42,11 @@ namespace Item
             {
                 Repop();
             }
+        }
+
+        public float AttackDamage()
+        {
+            return attackDamage;
         }
     }
 }

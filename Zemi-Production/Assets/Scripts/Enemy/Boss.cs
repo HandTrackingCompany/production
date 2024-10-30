@@ -1,4 +1,5 @@
 ﻿using System;
+using Item;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -20,11 +21,9 @@ namespace Enemy
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.CompareTag("DamagedItem"))
-            {
-                bossHealth -= DamagedItemPower;
-                BossHealthBar.value = bossHealth / bossMaxHealth;
-            }
+            bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage(); 
+            BossHealthBar.value = bossHealth / bossMaxHealth;
+            
         }
     }
 }
