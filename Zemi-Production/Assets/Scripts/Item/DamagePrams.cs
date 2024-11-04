@@ -9,6 +9,7 @@ namespace Item
         public float IronBoxDamage = 15;
         
         
+        
         public float BottleDamage = 5;
         public float GrassDamage = 15;
         public float FireDamage = 10;
