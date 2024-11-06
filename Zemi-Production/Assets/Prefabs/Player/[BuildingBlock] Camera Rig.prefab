@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.01809183, g: 0.3957146, b: 0.87169814, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6918,7 +6918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: e47682b9-c270-40b1-b16d-90b627a5ce1b
-  instanceId: 8c0db9b4-ac23-4c9a-a28a-b244c3a7fdac
+  instanceId: b0e4f828-5154-4846-8144-8a1eccab52eb
   version: 1
 --- !u!114 &1083336836096504451
 MonoBehaviour:
@@ -11045,7 +11045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 8b26b298-7bf4-490e-b245-a039c0184303
-  instanceId: 64c951a3-b390-433a-aa24-5896bd4ae2b1
+  instanceId: 9d71bb88-90a4-45bf-a535-c278ed7b1c13
   version: 1
 --- !u!114 &6519119822138197926
 MonoBehaviour:
@@ -11263,7 +11263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 8b26b298-7bf4-490e-b245-a039c0184303
-  instanceId: d6b56c0e-c213-40bc-8440-413e23d83d97
+  instanceId: 1f1ed1b4-b116-470c-b204-d2370e867bfb
   version: 1
 --- !u!114 &3969484117027295211
 MonoBehaviour:
@@ -12402,6 +12402,7 @@ GameObject:
   - component: {fileID: 4954570504797433339}
   - component: {fileID: 3553100766488579281}
   - component: {fileID: 4067608263779190058}
+  - component: {fileID: 7697066671834284432}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -12492,6 +12493,21 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &7697066671834284432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6533862039819222473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 009fe62e7687418c81668bc9944c8565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Helth: 100
+  PlayerHelthBar: {fileID: 1281899483706533144}
+  bossAttackPower: 20
 --- !u!1 &6602321224321857574
 GameObject:
   m_ObjectHideFlags: 0
@@ -17157,7 +17173,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
