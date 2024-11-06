@@ -24,6 +24,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss
       objectReference: {fileID: 0}
+    - target: {fileID: 3289365804687029510, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
+      propertyPath: randomValue
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3589592438378173337, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
