@@ -9,7 +9,7 @@ namespace Item
 
         private GameObject repopItem;
 
-        private float attackDamage;
+        public float attackDamage;
 
         [SerializeField] private DamagePrams damage;
         private void Start()
