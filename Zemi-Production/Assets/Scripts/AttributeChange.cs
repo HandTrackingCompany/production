@@ -6,14 +6,30 @@ public class AttributeChange : MonoBehaviour
 {
     [SerializeField] GameObject throwObj;
 
-    [SerializeField] Material lockMaterial;
-    [SerializeField] Material scissorsMaterial;
-    [SerializeField] Material paperMaterial;
+    private bool _isBall;
+    private bool _isBottle;
+    readonly string _ballTag = "Ball";
+    readonly string _ballLTag = "IronBall";
+    readonly string _ballSTag = "Grenade";
+    readonly string _ballPTag = "BowlingBall";
+    readonly string _bottleTag = "Bottle";
+    readonly string _bottleLTag = "Bin";
+    readonly string _bottleSTag = "FireBin";
+    readonly string _bottlePTag = "BowlingPin";
+
+    [SerializeField] Material lockBallMaterial;
+    [SerializeField] Material scissorsBallMaterial;
+    [SerializeField] Material paperBallMaterial;
+    
+    [SerializeField] Material lockBottleMaterial;
+    [SerializeField] Material scissorsBottleMaterial;
+    [SerializeField] Material paperBottleMaterial;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        _isBall = false;
+        _isBottle = false;
     }
 
     // Update is called once per frame
@@ -25,24 +41,62 @@ public class AttributeChange : MonoBehaviour
     public void SetThrow(GameObject obj)
     {
         throwObj = obj;
+
+        if (throwObj.CompareTag(_ballTag)||throwObj.CompareTag(_ballLTag)||throwObj.CompareTag(_ballSTag)||throwObj.CompareTag(_ballPTag))
+        {
+            _isBall = true;
+        }
+        else if (throwObj.CompareTag(_bottleTag)||throwObj.CompareTag(_bottleLTag)||throwObj.CompareTag(_bottleSTag)||throwObj.CompareTag(_bottlePTag))
+        {
+            _isBottle = true;
+        }
     }
 
     public void DeleteThrow()
     {
         throwObj = null;
+        _isBall = false;
+        _isBottle = false;
     }
     public void ChangeLock()
     {
-        throwObj.GetComponent<Renderer>().material = lockMaterial;
+        if (_isBall == true)
+        {
+            throwObj.tag = "IronBall";
+            throwObj.GetComponent<Renderer>().material = lockBallMaterial;
+        }
+        else if (_isBottle == true)
+        {
+            throwObj.tag = "Bin";
+            throwObj.GetComponent<Renderer>().material = lockBottleMaterial;
+        }
     }
 
     public void ChangeScissors()
     {
-        throwObj.GetComponent<Renderer>().material = scissorsMaterial; ;
+        if (_isBall == true)
+        {
+            throwObj.tag = "Grenade";
+            throwObj.GetComponent<Renderer>().material = scissorsBallMaterial;
+        }
+        else if (_isBottle == true)
+        {
+            throwObj.tag = "FireBin";
+            throwObj.GetComponent<Renderer>().material = scissorsBottleMaterial;
+        }
     }
 
     public void ChangePaper()
     {
-        throwObj.GetComponent<Renderer>().material = paperMaterial; ;
+        if (_isBall == true)
+        {
+            throwObj.tag = "BowlingBall";
+            throwObj.GetComponent<Renderer>().material = paperBallMaterial;
+        }
+        else if (_isBottle == true)
+        {
+            throwObj.tag = "BowlingPin";
+            throwObj.GetComponent<Renderer>().material = paperBottleMaterial;
+        }
     }
 }
