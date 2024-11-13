@@ -21,7 +21,16 @@ public class AttributeChange : MonoBehaviour
     {
         
     }
+    
+    public void SetThrow(GameObject obj)
+    {
+        throwObj = obj;
+    }
 
+    public void DeleteThrow()
+    {
+        throwObj = null;
+    }
     public void ChangeLock()
     {
         throwObj.GetComponent<Renderer>().material = lockMaterial;
