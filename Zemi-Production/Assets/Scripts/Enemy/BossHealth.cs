@@ -12,10 +12,20 @@ namespace Enemy
         [SerializeField] private Slider BossHealthBar;
         private float bossMaxHealth;
 
+        [SerializeField] private int rndValue = 6;
         private int rndWeakness = 0;
+        private bool changeWeakness = false;
 
         private float time = 0;
         [SerializeField] private float coolTime = 5;
+
+        private bool bin = false;
+        private bool fireBin = false;
+        private bool bowlingPin = false;
+        private bool ironBall = false;
+        private bool grenade = false;
+        private bool bowlingBall = false;
+        [SerializeField] private Renderer weaknessFlag;
         private void Start()
         {
             bossMaxHealth = bossHealth;
@@ -24,8 +34,16 @@ namespace Enemy
 
         private void Update()
         {
-            time += Time.deltaTime;
-            if (time > coolTime)
+            if (time > 0)
+            {
+                time -= Time.deltaTime;
+            }
+            else if (time <= 0 || !changeWeakness)
+            {
+                changeWeakness = true;
+            }
+
+            if (changeWeakness)
             {
                 ChangeWeakness();
                 ShowWeakness();
@@ -34,18 +52,128 @@ namespace Enemy
 
         private void ShowWeakness()
         {
-            
+            if (bin)
+            {
+                weaknessFlag.material.color = Color.cyan;
+            }
+            else if (fireBin)
+            {
+                weaknessFlag.material.color = Color.red;
+            }
+            else if (bowlingPin)
+            {
+                weaknessFlag.material.color = Color.gray;
+            }
+            else if (ironBall)
+            {
+                weaknessFlag.material.color = Color.yellow;
+            }
+            else if (grenade)
+            {
+                weaknessFlag.material.color = Color.black;
+            }
+            else if (bowlingBall)
+            {
+                weaknessFlag.material.color = Color.blue;
+            }
         }
 
         private void ChangeWeakness()
         {
-            rndWeakness = Random.Range(1, 7);
+            AllFalse();
+            rndWeakness = Random.Range(1, rndValue + 1);
+            switch (rndWeakness)
+            {
+                case 1 :
+                    bin = true;
+                    break;
+                case 2 :
+                    fireBin = true;
+                    break;
+                case 3 :
+                    bowlingPin = true;
+                    break;
+                case 4 :
+                    ironBall = true;
+                    break;
+                case 5 :
+                    grenade = true;
+                    break;
+                case 6 :
+                    bowlingBall = true;
+                    break;
+            }
+            time = coolTime;
+            changeWeakness = false;
         }
 
         private void OnTriggerEnter(Collider other)
         {
-            bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage(); 
+            if (other.gameObject.CompareTag("Bin"))
+            {
+                if (bin)
+                {
+                    bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage();
+                    time = 0;
+                    AllFalse();
+                }
+            }
+            else if (other.gameObject.CompareTag("FireBin"))
+            {
+                if (fireBin)
+                {
+                    bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage();
+                    time = 0;
+                    AllFalse();
+                }
+            }
+            else if (other.gameObject.CompareTag("BowlingPin"))
+            {
+                if (bowlingPin)
+                {
+                    bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage();
+                    time = 0;
+                    AllFalse();
+                }
+            }
+            else if (other.gameObject.CompareTag("IronBall"))
+            {
+                if (ironBall)
+                {
+                    bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage();
+                    time = 0;
+                    AllFalse();
+                }
+            }
+            else if (other.gameObject.CompareTag("Grenade"))
+            {
+                if (grenade)
+                {
+                    bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage();
+                    time = 0;
+                    AllFalse();
+                }
+            }
+            else if (other.gameObject.CompareTag("BowlingBall"))
+            {
+                if (bowlingBall)
+                {
+                    bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage();
+                    time = 0;
+                    AllFalse();
+                }
+            }
             UpDateBossHealthBar();
+        }
+
+        private void AllFalse()
+        {
+            bin = false;
+            fireBin = false;
+            bowlingPin = false;
+            ironBall = false;
+            grenade = false;
+            bowlingBall = false;
         }
 
         private void UpDateBossHealthBar()
