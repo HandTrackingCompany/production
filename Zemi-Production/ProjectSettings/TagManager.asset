@@ -11,6 +11,12 @@ TagManager:
   - Box
   - Left
   - Right
+  - Bin
+  - FireBin
+  - BowlingPin
+  - IronBall
+  - Grenade
+  - BowlingBall
   layers:
   - Default
   - TransparentFX
