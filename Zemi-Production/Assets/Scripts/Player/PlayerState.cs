@@ -10,6 +10,8 @@ namespace Player
         [SerializeField] private Slider PlayerHelthBar;
         private float playerMaxHelth;
 
+        public bool Guard = false;
+
         [SerializeField] private float bossAttackPower = 20;
 
         private void Start()
@@ -20,7 +22,10 @@ namespace Player
 
         public void Attacked()
         {
-            Helth -= bossAttackPower;
+            if (!Guard)
+            {
+                Helth -= bossAttackPower;
+            }
         }
 
         public void UpdateHelthBar()

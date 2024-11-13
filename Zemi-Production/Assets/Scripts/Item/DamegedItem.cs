@@ -11,22 +11,27 @@ namespace Item
 
         public float attackDamage;
 
+        private Renderer thisColor;
+
         [SerializeField] private DamagePrams damage;
         private void Start()
         {
+            thisColor = GetComponent<Renderer>();
+            thisColor.material.color = Color.white;
             startPosition = transform.position;
             repopItem = this.gameObject;
-            if (gameObject.CompareTag("Box"))
-            {
-                attackDamage = damage.BoxDamage;
-            }
-            else if (gameObject.CompareTag("Bottle"))
+            
+            if (gameObject.CompareTag("Bottle")||gameObject.CompareTag("Bin")||
+                gameObject.CompareTag("FireBin")||gameObject.CompareTag("BowlingPin"))
             {
                 attackDamage = damage.BottleDamage;
+                gameObject.tag = "Bottle";
             }
-            else if (gameObject.CompareTag("Ball"))
+            else if (gameObject.CompareTag("Ball")||gameObject.CompareTag("IronBall")||
+                     gameObject.CompareTag("Grenade")||gameObject.CompareTag("BowlingBall"))
             {
                 attackDamage = damage.BallDamage;
+                gameObject.tag = "Ball";
             }
         }
 
