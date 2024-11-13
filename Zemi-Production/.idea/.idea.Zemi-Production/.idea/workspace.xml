@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14930646-9ef6-4f42-9648-260e15daaa8a" name="Changes" comment="add color">
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    <list default="true" id="14930646-9ef6-4f42-9648-260e15daaa8a" name="Changes" comment="add gesture">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Sphere.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Items/Sphere.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +25,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Oculus/OculusProjectConfig.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Oculus/OculusProjectConfig.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Enemy/Boss.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Player/[BuildingBlock] Camera Rig.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Player/[BuildingBlock] Camera Rig.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Scenes/PrefabFactory.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/IdentificationItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.core@64.0.0/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.core@64.0.0/Scripts/OVRManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.interaction.ovr@64.0.0/Runtime/Scripts/Input/OVRControllerVisual.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/jp.lilxyzw.liltoon/Editor/lilInspector.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -53,7 +60,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "http.proxy",
+    "settings.editor.selected.configurable": "configurable.group.language",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -152,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731504602784</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add gesture">
+      <option name="closed" value="true" />
+      <created>1731509114864</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731509114864</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +210,7 @@
     <MESSAGE value="check" />
     <MESSAGE value="fix" />
     <MESSAGE value="add color" />
-    <option name="LAST_COMMIT_MESSAGE" value="add color" />
+    <MESSAGE value="add gesture" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gesture" />
   </component>
 </project>
