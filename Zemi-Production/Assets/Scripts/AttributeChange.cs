@@ -63,12 +63,14 @@ public class AttributeChange : MonoBehaviour
         if (_isBall == true)
         {
             throwObj.tag = "IronBall";
-            throwObj.GetComponent<Renderer>().material = lockBallMaterial;
+            throwObj.GetComponent<Renderer>().material.color = Color.yellow;
+            //throwObj.GetComponent<Renderer>().material = lockBallMaterial;
         }
         else if (_isBottle == true)
         {
             throwObj.tag = "Bin";
-            throwObj.GetComponent<Renderer>().material = lockBottleMaterial;
+            throwObj.GetComponent<Renderer>().material.color = Color.cyan;
+            //throwObj.GetComponent<Renderer>().material = lockBottleMaterial;
         }
     }
 
@@ -77,12 +79,14 @@ public class AttributeChange : MonoBehaviour
         if (_isBall == true)
         {
             throwObj.tag = "Grenade";
-            throwObj.GetComponent<Renderer>().material = scissorsBallMaterial;
+            throwObj.GetComponent<Renderer>().material.color = Color.black;
+            //throwObj.GetComponent<Renderer>().material = scissorsBallMaterial;
         }
         else if (_isBottle == true)
         {
             throwObj.tag = "FireBin";
-            throwObj.GetComponent<Renderer>().material = scissorsBottleMaterial;
+            throwObj.GetComponent<Renderer>().material.color = Color.red;
+            //throwObj.GetComponent<Renderer>().material = scissorsBottleMaterial;
         }
     }
 
@@ -91,12 +95,14 @@ public class AttributeChange : MonoBehaviour
         if (_isBall == true)
         {
             throwObj.tag = "BowlingBall";
-            throwObj.GetComponent<Renderer>().material = paperBallMaterial;
+            throwObj.GetComponent<Renderer>().material.color = Color.blue;
+            //throwObj.GetComponent<Renderer>().material = paperBallMaterial;
         }
         else if (_isBottle == true)
         {
             throwObj.tag = "BowlingPin";
-            throwObj.GetComponent<Renderer>().material = paperBottleMaterial;
+            throwObj.GetComponent<Renderer>().material.color = Color.gray;
+            //throwObj.GetComponent<Renderer>().material = paperBottleMaterial;
         }
     }
 }
