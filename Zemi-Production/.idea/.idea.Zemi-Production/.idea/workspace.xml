@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14930646-9ef6-4f42-9648-260e15daaa8a" name="Changes" comment="">
+    <list default="true" id="14930646-9ef6-4f42-9648-260e15daaa8a" name="Changes" comment="fix ground">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/DamegedItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/DamegedItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/100kin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Model/100kin.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Gesture.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Gesture.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,22 +28,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Oculus/OculusProjectConfig.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Oculus/OculusProjectConfig.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Enemy/Boss.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Enemy/Boss.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Player/[BuildingBlock] Camera Rig.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Player/[BuildingBlock] Camera Rig.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Scenes/PrefabFactory.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Scripts/Enemy/BossHealth.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/hayat/RiderProjects/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Items/Ball.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/hayat/RiderProjects/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Player/[BuildingBlock] Camera Rig.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/hayat/RiderProjects/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Stage/100kin.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/hayat/RiderProjects/HandTrackingCompany/Zemi-Production/Assets/Scripts/Enemy/BossAttack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/hayat/RiderProjects/HandTrackingCompany/Zemi-Production/Assets/Scripts/Enemy/BossHealth.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/IdentificationItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.core@64.0.0/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.core@64.0.0/Scripts/OVRManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.interaction.ovr@64.0.0/Runtime/Scripts/Input/OVRControllerVisual.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.interaction@64.0.0/Editor/EditorBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.interaction@64.0.0/Runtime/Scripts/PoseDetection/ShapeRecognizerActiveState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.interaction@64.0.0/Runtime/ThirdParty/InterfaceSupport/Editor/InterfaceDrawer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/jp.lilxyzw.liltoon/Editor/lilInspector.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/UserSettings/EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -179,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731509995295</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix ground">
+      <option name="closed" value="true" />
+      <created>1731559581584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731559581584</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,25 +235,7 @@
     <MESSAGE value="add color" />
     <MESSAGE value="add gesture" />
     <MESSAGE value="Change prefab name" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Item/DamegedItem.cs</url>
-          <line>39</line>
-          <properties documentPath="C:\Users\hayat\RiderProjects\HandTrackingCompany\Zemi-Production\Assets\Scripts\Item\DamegedItem.cs" containingFunctionPresentation="Method 'Repop'">
-            <startOffsets>
-              <option value="1197" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1254" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="fix ground" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix ground" />
   </component>
 </project>

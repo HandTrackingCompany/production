@@ -75,7 +75,7 @@ namespace Enemy
         {
             chargeParticle.Stop();
             player.Attacked();
-            player.UpdateHelthBar();
+            player.UpdateHealthBar();
         }
     }
 }

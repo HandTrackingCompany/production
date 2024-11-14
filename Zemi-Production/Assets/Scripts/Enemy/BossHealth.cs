@@ -56,6 +56,7 @@ namespace Enemy
 
         private void ShowWeakness()
         {
+            source.PlayOneShot(clip[2]);
             if (bin)
             {
                 weaknessFlag.material.color = Color.cyan;

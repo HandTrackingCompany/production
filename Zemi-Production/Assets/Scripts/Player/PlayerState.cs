@@ -41,15 +41,17 @@ namespace Player
         public void Guard()
         {
             guard = true;
+            source.PlayOneShot(clip[2]);
         }
 
         public void GuardCancel()
         {
             guard = false;
+            source.PlayOneShot(clip[3]);
         }
         
 
-        public void UpdateHelthBar()
+        public void UpdateHealthBar()
         {
             PlayerHelthBar.value = Helth / playerMaxHelth;
         }
