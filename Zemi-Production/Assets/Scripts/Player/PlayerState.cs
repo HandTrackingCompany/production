@@ -1,4 +1,5 @@
 ﻿using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,10 +15,14 @@ namespace Player
 
         [SerializeField] private float bossAttackPower = 20;
 
+        [SerializeField] private AudioClip[] clip;
+        protected AudioSource source;
+    
         private void Start()
         {
             playerMaxHelth = Helth;
             PlayerHelthBar.value = Helth / playerMaxHelth;
+            source = GetComponent<AudioSource>();
         }
 
         public void Attacked()
@@ -25,6 +30,11 @@ namespace Player
             if (!guard)
             {
                 Helth -= bossAttackPower;
+                source.PlayOneShot(clip[0]);
+            }
+            else
+            {
+                source.PlayOneShot(clip[1]);
             }
         }
 

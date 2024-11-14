@@ -26,9 +26,13 @@ namespace Enemy
         private bool grenade = false;
         private bool bowlingBall = false;
         [SerializeField] private Renderer weaknessFlag;
+        
+        [SerializeField] private AudioClip[] clip;
+        protected AudioSource source;
         private void Start()
         {
             bossMaxHealth = bossHealth;
+            source = GetComponent<AudioSource>();
             UpDateBossHealthBar();
         }
 
@@ -115,7 +119,12 @@ namespace Enemy
                 {
                     bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage();
                     time = 0;
+                    source.PlayOneShot(clip[0]);
                     AllFalse();
+                }
+                else
+                {
+                    source.PlayOneShot(clip[1]);
                 }
             }
             else if (other.gameObject.CompareTag("FireBin"))
@@ -124,7 +133,12 @@ namespace Enemy
                 {
                     bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage();
                     time = 0;
+                    source.PlayOneShot(clip[0]);
                     AllFalse();
+                }
+                else
+                {
+                    source.PlayOneShot(clip[1]);
                 }
             }
             else if (other.gameObject.CompareTag("BowlingPin"))
@@ -133,7 +147,12 @@ namespace Enemy
                 {
                     bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage();
                     time = 0;
+                    source.PlayOneShot(clip[0]);
                     AllFalse();
+                }
+                else
+                {
+                    source.PlayOneShot(clip[1]);
                 }
             }
             else if (other.gameObject.CompareTag("IronBall"))
@@ -142,7 +161,12 @@ namespace Enemy
                 {
                     bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage();
                     time = 0;
+                    source.PlayOneShot(clip[0]);
                     AllFalse();
+                }
+                else
+                {
+                    source.PlayOneShot(clip[1]);
                 }
             }
             else if (other.gameObject.CompareTag("Grenade"))
@@ -151,7 +175,12 @@ namespace Enemy
                 {
                     bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage();
                     time = 0;
+                    source.PlayOneShot(clip[0]);
                     AllFalse();
+                }
+                else
+                {
+                    source.PlayOneShot(clip[1]);
                 }
             }
             else if (other.gameObject.CompareTag("BowlingBall"))
@@ -160,7 +189,12 @@ namespace Enemy
                 {
                     bossHealth -= other.gameObject.GetComponent<DamegedItem>().AttackDamage();
                     time = 0;
+                    source.PlayOneShot(clip[0]);
                     AllFalse();
+                }
+                else
+                {
+                    source.PlayOneShot(clip[1]);
                 }
             }
             UpDateBossHealthBar();
