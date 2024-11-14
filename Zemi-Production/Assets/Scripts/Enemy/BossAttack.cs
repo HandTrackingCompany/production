@@ -22,10 +22,13 @@ namespace Enemy
         private bool chooseNumber = false;
         [SerializeField] private float chargeTime = 3; 
         
+        [SerializeField] private AudioClip[] clip;
+        protected AudioSource source;
 
         private void Start()
         {
             chargeParticle.Stop();
+            source = GetComponent<AudioSource>();
         }
 
         private void Update()
@@ -47,6 +50,7 @@ namespace Enemy
                 if (rnd == randomValue)
                 {
                     chargeParticle.Play();
+                    source.PlayOneShot(clip[0]);
                 }
             }
             
