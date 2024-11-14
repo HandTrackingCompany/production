@@ -19,7 +19,7 @@ namespace Item
             thisColor = GetComponent<Renderer>();
             thisColor.material.color = Color.white;
             startPosition = transform.position;
-            repopItem = this.gameObject;
+            repopItem = gameObject;
             
             if (gameObject.CompareTag("Bottle")||gameObject.CompareTag("Bin")||
                 gameObject.CompareTag("FireBin")||gameObject.CompareTag("BowlingPin"))
