@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6137559625040699840}
   - component: {fileID: 7596706605853065434}
   - component: {fileID: 202029134057323349}
+  - component: {fileID: 5751937214458826815}
   m_Layer: 0
   m_Name: Gesture
   m_TagString: Untagged
@@ -145,6 +146,38 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _whenDeactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  _emitOnFirstUpdate: 1
+--- !u!114 &5751937214458826815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338679605156987714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d2705674196dfc4da9c25fbacda72d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _activeState: {fileID: 1396053370529348743}
+  _whenActivated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 338679605156987714}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -292,6 +325,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cb73dc9fa8317e4b9362bd1da04108c, type: 3}
+--- !u!114 &1396053370529348743 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3996974715223849544, guid: 4cb73dc9fa8317e4b9362bd1da04108c, type: 3}
+  m_PrefabInstance: {fileID: 2605293314336999119}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f7cfb1f9629da4494ac0840f3a3cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &6369335779726796342 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8954195451851890937, guid: 4cb73dc9fa8317e4b9362bd1da04108c, type: 3}
