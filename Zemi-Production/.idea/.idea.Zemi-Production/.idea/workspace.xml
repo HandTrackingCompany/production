@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14930646-9ef6-4f42-9648-260e15daaa8a" name="Changes" comment="fix ground">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Model/100kin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Model/100kin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Gesture.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Gesture.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-    </list>
+    <list default="true" id="14930646-9ef6-4f42-9648-260e15daaa8a" name="Changes" comment="add se" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +19,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/hayat/RiderProjects/HandTrackingCompany/Zemi-Production/Assets/Model/100kin.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/hayat/RiderProjects/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Items/Ball.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/hayat/RiderProjects/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Player/[BuildingBlock] Camera Rig.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/hayat/RiderProjects/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Stage/100kin.prefab" root0="SKIP_HIGHLIGHTING" />
@@ -190,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731559581584</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add se">
+      <option name="closed" value="true" />
+      <created>1731562931774</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731562931774</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +236,7 @@
     <MESSAGE value="add gesture" />
     <MESSAGE value="Change prefab name" />
     <MESSAGE value="fix ground" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix ground" />
+    <MESSAGE value="add se" />
+    <option name="LAST_COMMIT_MESSAGE" value="add se" />
   </component>
 </project>
