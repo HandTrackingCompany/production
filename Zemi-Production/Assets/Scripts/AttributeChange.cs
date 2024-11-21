@@ -5,6 +5,9 @@ using UnityEngine;
 public class AttributeChange : MonoBehaviour
 {
     [SerializeField] GameObject throwObj;
+    private GameObject Boss;
+    private Vector3 current;
+    private Rigidbody objRb;
 
     private bool _isBall;
     private bool _isBottle;
@@ -30,6 +33,7 @@ public class AttributeChange : MonoBehaviour
     {
         _isBall = false;
         _isBottle = false;
+        Boss = GameObject.Find("Boss");
     }
 
     // Update is called once per frame
@@ -51,6 +55,32 @@ public class AttributeChange : MonoBehaviour
             _isBottle = true;
         }
     }
+
+    public void Shot()
+    {
+        if (throwObj != null)
+        {
+            objRb = throwObj.GetComponent<Rigidbody>();
+            throwObj.GetComponent<Collider>().isTrigger = true;
+            objRb.AddForce(0,0,500);
+        }
+        /*var target = Boss.transform.position;
+        if (throwObj != null)
+        {
+            current = throwObj.transform.position;
+            float speed = 2.0f * Time.deltaTime;
+            ShotItem(throwObj,current,target,speed);
+        }*/
+    }
+
+    private void ShotItem(GameObject obj,Vector3 current,Vector3 target,float speed)
+    {
+        while (obj.transform.position == target)
+        {
+            obj.transform.position = Vector3.MoveTowards(current, target, speed);
+        }
+    }
+    
 
     public void DeleteThrow()
     {
