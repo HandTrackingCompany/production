@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 107
+  controlID: 55
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 66
+  controlID: 56
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -345,7 +345,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -413,9 +413,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 08e1ffff2ceaffff2aecffffc4ecffff88faffff
+      m_SelectedIDs: e0dbffff
+      m_LastClickedID: -9248
+      m_ExpandedIDs: 0eb6ffff44dbffffe0dbffff0ce9ffff16e9ffff8ce9ffff16fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -782,9 +782,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.285446, y: 0.6033304, z: 3.001082}
+    m_Target: {x: 3.564558, y: -7.928318, z: 3.4056253}
     speed: 2
-    m_Value: {x: 2.285446, y: 0.6033304, z: 3.001082}
+    m_Value: {x: 3.564558, y: -7.928318, z: 3.4056253}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -830,13 +830,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.07901224, y: -0.39700276, z: 0.0347319, w: -0.9139684}
+    m_Target: {x: -0.51607484, y: -0.08043246, z: 0.04882476, w: -0.851662}
     speed: 2
-    m_Value: {x: -0.078996494, y: -0.39692363, z: 0.034724977, w: -0.91378623}
+    m_Value: {x: -0.5138972, y: -0.08052881, z: 0.04861888, w: -0.8526787}
   m_Size:
-    m_Target: 4.2846127
+    m_Target: 12.423645
     speed: 2
-    m_Value: 4.2846127
+    m_Value: 12.423645
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -940,7 +940,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs/Stage
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -948,16 +948,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs/Stage
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\hayat\RiderProjects\HandTrackingCompany\Zemi-Production
+  m_LastProjectPath: C:\Users\ebifr\GitHub\production\Zemi-Production
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 208d0000
-    m_LastClickedID: 36128
-    m_ExpandedIDs: 00000000208d0000228d0000248d0000268d0000288d00002a8d00002c8d00002e8d000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: e4980000
+    m_LastClickedID: 39140
+    m_ExpandedIDs: 000000009a8000008c960000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -985,7 +985,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000208d0000228d0000248d0000268d0000288d00002a8d00002c8d00002e8d0000
+    m_ExpandedIDs: 000000009a800000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1012,8 +1012,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000060970000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
