@@ -5460,6 +5460,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2575856608077758746, guid: 81911a0686f0cf54a97c4a23a984e40b, type: 3}
   m_PrefabInstance: {fileID: 2724227004332727584}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &6258616463654223692 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8292662405553594988, guid: 81911a0686f0cf54a97c4a23a984e40b, type: 3}
+  m_PrefabInstance: {fileID: 2724227004332727584}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3189150519415916296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5487,11 +5492,19 @@ PrefabInstance:
     - target: {fileID: 2184139563448617824, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
       propertyPath: weaknessFlag
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6258616463654223692}
     - target: {fileID: 2184139563448617824, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
       propertyPath: BossHealthBar
       value: 
+      objectReference: {fileID: 4560256062586888224}
+    - target: {fileID: 2184139563448617824, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
+      propertyPath: clip.Array.size
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2184139563448617824, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
+      propertyPath: clip.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: d25f5456963a32445b707e7226adc351, type: 3}
     - target: {fileID: 2361484261417719972, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
       propertyPath: m_Name
       value: Boss
@@ -5499,7 +5512,7 @@ PrefabInstance:
     - target: {fileID: 3289365804687029510, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
       propertyPath: chargeParticle
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5222508044281435872}
     - target: {fileID: 3589592438378173337, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
