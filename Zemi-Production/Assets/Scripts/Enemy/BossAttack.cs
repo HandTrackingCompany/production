@@ -49,7 +49,7 @@ namespace Enemy
                 Debug.Log("rnd = " + rnd);
                 if (rnd == randomValue)
                 {
-                    chargeParticle.Play();
+                    chargeParticle.Play(); 
                     source.PlayOneShot(clip[0]);
                 }
             }
