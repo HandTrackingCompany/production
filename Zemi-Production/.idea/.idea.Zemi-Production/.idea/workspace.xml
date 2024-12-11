@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14930646-9ef6-4f42-9648-260e15daaa8a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Model/100kin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Model/100kin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BossClass.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BossClass.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Gesture.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Gesture.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EbiFactory.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EbiFactory.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AttributeChange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AttributeChange.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
@@ -28,8 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/ebifr/GitHub/production/Zemi-Production/Assets/Oculus/OculusProjectConfig.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ebifr/GitHub/production/Zemi-Production/Assets/Oculus/OculusProjectConfig.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ebifr/GitHub/production/Zemi-Production/Assets/Prefabs/Player/Gesture.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ebifr/GitHub/production/Zemi-Production/Assets/Scenes/EbiFactory.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ebifr/GitHub/production/Zemi-Production/Assets/Scripts/AttributeChange.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/IdentificationItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.core@64.0.0/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.core@64.0.0/Scripts/OVRManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -149,6 +150,8 @@
       <workItem from="1731510427536" duration="3907000" />
       <workItem from="1732099870105" duration="812000" />
       <workItem from="1732154756249" duration="1739000" />
+      <workItem from="1733363444543" duration="8100000" />
+      <workItem from="1733930637355" duration="3576000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -206,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731562931774</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="プレハブの配置変更">
+      <option name="closed" value="true" />
+      <created>1732767798165</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732767798165</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +264,7 @@
     <MESSAGE value="Change prefab name" />
     <MESSAGE value="fix ground" />
     <MESSAGE value="add se" />
-    <option name="LAST_COMMIT_MESSAGE" value="add se" />
+    <MESSAGE value="プレハブの配置変更" />
+    <option name="LAST_COMMIT_MESSAGE" value="プレハブの配置変更" />
   </component>
 </project>
