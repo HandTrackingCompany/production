@@ -17,6 +17,10 @@ TagManager:
   - IronBall
   - Grenade
   - BowlingBall
+  - Rod
+  - Baton
+  - Spear
+  - MetalBat
   layers:
   - Default
   - TransparentFX
