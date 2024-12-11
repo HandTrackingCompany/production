@@ -26,7 +26,8 @@ namespace Enemy
         private bool grenade = false;
         private bool bowlingBall = false;
         [SerializeField] private Renderer weaknessFlag;
-        
+
+        [SerializeField] private GameObject restartSwitch;
         [SerializeField] private AudioClip[] clip;
         protected AudioSource source;
         private void Start()
@@ -214,6 +215,10 @@ namespace Enemy
         private void UpDateBossHealthBar()
         {
             BossHealthBar.value = bossHealth / bossMaxHealth;
+            if (bossHealth <= 0)
+            {
+                restartSwitch.SetActive(true);
+            }
         }
     }
 }
