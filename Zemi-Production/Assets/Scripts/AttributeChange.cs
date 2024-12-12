@@ -7,9 +7,9 @@ public class AttributeChange : MonoBehaviour
 {
     [SerializeField] GameObject throwObj;
 
-    private bool _isBall;
-    private bool _isBottle;
-    private bool _isRod;
+    public bool _isBall;
+    public bool _isBottle;
+    public bool _isRod;
     readonly string _ballTag = "Ball";
     readonly string _ballLTag = "IronBall";
     readonly string _ballSTag = "Grenade";
@@ -52,6 +52,7 @@ public class AttributeChange : MonoBehaviour
     public void SetThrow(GameObject obj)
     {
         throwObj = obj;
+        Debug.Log("SetThrow:"+obj.name+"/"+throwObj.name);
 
         if (throwObj.CompareTag(_ballTag)||throwObj.CompareTag(_ballLTag)||throwObj.CompareTag(_ballSTag)||throwObj.CompareTag(_ballPTag))
         {
@@ -79,21 +80,15 @@ public class AttributeChange : MonoBehaviour
     {
         if (_isBall == true)
         {
-            throwObj.tag = "IronBall";
+            throwObj.tag = _ballLTag;
             throwObj.GetComponent<Renderer>().material.color = Color.yellow;
             //throwObj.GetComponent<MeshFilter>().mesh = lockBallMesh;
         }
         else if (_isBottle == true)
         {
-            throwObj.tag = "Bin";
+            throwObj.tag = _bottleLTag;
             throwObj.GetComponent<Renderer>().material.color = Color.cyan;
             //throwObj.GetComponent<MeshFilter>().mesh = lockBottleMesh;
-        }
-        else if (_isRod == true)
-        {
-            throwObj.tag = "Baton";
-            throwObj.GetComponent<Renderer>().material.color = Color.magenta;
-            //throwObj.GetComponent<MeshFilter>().mesh = lockRodMesh;
         }
     }
 
@@ -101,21 +96,15 @@ public class AttributeChange : MonoBehaviour
     {
         if (_isBall == true)
         {
-            throwObj.tag = "Grenade";
+            throwObj.tag = _ballSTag;
             throwObj.GetComponent<Renderer>().material.color = Color.black;
             //throwObj.GetComponent<MeshFilter>().mesh = scissorsBallMesh;
         }
         else if (_isBottle == true)
         {
-            throwObj.tag = "FireBin";
+            throwObj.tag = _bottleSTag;
             throwObj.GetComponent<Renderer>().material.color = Color.red;
             //throwObj.GetComponent<MeshFilter>().mesh = scissorsBottleMesh;
-        }
-        else if (_isRod == true)
-        {
-            throwObj.tag = "Spear";
-            throwObj.GetComponent<Renderer>().material.color = Color.white;
-            //throwObj.GetComponent<MeshFilter>().mesh = scissorsRodMesh;
         }
     }
 
