@@ -2,6 +2,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using Object = System.Object;
 
 namespace Player
 {
@@ -14,6 +15,7 @@ namespace Player
         private bool guard = false;
 
         [SerializeField] private float bossAttackPower = 20;
+        [SerializeField] private GameObject restartSwitch;
 
         [SerializeField] private AudioClip[] clip;
         protected AudioSource source;
@@ -31,6 +33,10 @@ namespace Player
             {
                 Helth -= bossAttackPower;
                 source.PlayOneShot(clip[0]);
+                if (Helth <= 0)
+                {
+                    restartSwitch.SetActive(true);
+                }
             }
             else
             {
