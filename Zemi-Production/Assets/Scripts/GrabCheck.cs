@@ -38,7 +38,7 @@ public class GrabCheck : MonoBehaviour
         
         attributeChange._isBall = false;
         attributeChange._isBottle = false;
-        attributeChange._isRod = false;
+        //attributeChange._isRod = false;
     }
 
     public void Cancel()

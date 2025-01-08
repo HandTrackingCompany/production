@@ -9,7 +9,7 @@ public class AttributeChange : MonoBehaviour
 
     public bool _isBall;
     public bool _isBottle;
-    public bool _isRod;
+    //public bool _isRod;
     readonly string _ballTag = "Ball";
     readonly string _ballLTag = "IronBall";
     readonly string _ballSTag = "Grenade";
@@ -18,10 +18,10 @@ public class AttributeChange : MonoBehaviour
     readonly string _bottleLTag = "Bin";
     readonly string _bottleSTag = "FireBin";
     readonly string _bottlePTag = "BowlingPin";
-    readonly string _rodTag = "Rod";
-    readonly string _rodLTag = "Baton";
-    readonly string _rodSTag = "Spear";
-    readonly string _rodPTag = "MetalBat";
+    // readonly string _rodTag = "Rod";
+    // readonly string _rodLTag = "Baton";
+    // readonly string _rodSTag = "Spear";
+    // readonly string _rodPTag = "MetalBat";
 
     [SerializeField] Mesh lockBallMesh;
     [SerializeField] Mesh scissorsBallMesh;
@@ -31,16 +31,16 @@ public class AttributeChange : MonoBehaviour
     [SerializeField] Mesh scissorsBottleMesh;
     [SerializeField] Mesh paperBottleMesh;
     
-    [SerializeField] Mesh lockRodMesh;
-    [SerializeField] Mesh scissorsRodMesh;
-    [SerializeField] Mesh paperRodMesh;
+    // [SerializeField] Mesh lockRodMesh;
+    // [SerializeField] Mesh scissorsRodMesh;
+    // [SerializeField] Mesh paperRodMesh;
 
     // Start is called before the first frame update
     void Start()
     {
         _isBall = false;
         _isBottle = false;
-        _isRod = false;
+        //_isRod = false;
     }
 
     // Update is called once per frame
@@ -62,11 +62,11 @@ public class AttributeChange : MonoBehaviour
         {
             _isBottle = true;
         }
-        else if (throwObj.CompareTag(_rodTag) || throwObj.CompareTag(_rodLTag) || throwObj.CompareTag(_rodSTag) ||
-                 throwObj.CompareTag(_rodPTag))
-        {
-            _isRod = true;
-        }
+        // else if (throwObj.CompareTag(_rodTag) || throwObj.CompareTag(_rodLTag) || throwObj.CompareTag(_rodSTag) ||
+        //          throwObj.CompareTag(_rodPTag))
+        // {
+        //     _isRod = true;
+        // }
     }
 
     public void DeleteThrow()
@@ -74,21 +74,21 @@ public class AttributeChange : MonoBehaviour
         throwObj = null;
         _isBall = false;
         _isBottle = false;
-        _isRod = false;
+        //_isRod = false;
     }
     public void ChangeLock()
     {
         if (_isBall == true)
         {
             throwObj.tag = _ballLTag;
-            throwObj.GetComponent<Renderer>().material.color = Color.yellow;
-            //throwObj.GetComponent<MeshFilter>().mesh = lockBallMesh;
+            //throwObj.GetComponent<Renderer>().material.color = Color.yellow;
+            throwObj.GetComponent<MeshFilter>().mesh = lockBallMesh;
         }
         else if (_isBottle == true)
         {
             throwObj.tag = _bottleLTag;
-            throwObj.GetComponent<Renderer>().material.color = Color.cyan;
-            //throwObj.GetComponent<MeshFilter>().mesh = lockBottleMesh;
+            //throwObj.GetComponent<Renderer>().material.color = Color.cyan;
+            throwObj.GetComponent<MeshFilter>().mesh = lockBottleMesh;
         }
     }
 
@@ -97,14 +97,14 @@ public class AttributeChange : MonoBehaviour
         if (_isBall == true)
         {
             throwObj.tag = _ballSTag;
-            throwObj.GetComponent<Renderer>().material.color = Color.black;
-            //throwObj.GetComponent<MeshFilter>().mesh = scissorsBallMesh;
+            //throwObj.GetComponent<Renderer>().material.color = Color.black;
+            throwObj.GetComponent<MeshFilter>().mesh = scissorsBallMesh;
         }
         else if (_isBottle == true)
         {
             throwObj.tag = _bottleSTag;
-            throwObj.GetComponent<Renderer>().material.color = Color.red;
-            //throwObj.GetComponent<MeshFilter>().mesh = scissorsBottleMesh;
+            //throwObj.GetComponent<Renderer>().material.color = Color.red;
+            throwObj.GetComponent<MeshFilter>().mesh = scissorsBottleMesh;
         }
     }
 
@@ -113,20 +113,14 @@ public class AttributeChange : MonoBehaviour
         if (_isBall == true)
         {
             throwObj.tag = "BowlingBall";
-            throwObj.GetComponent<Renderer>().material.color = Color.blue;
-            //throwObj.GetComponent<MeshFilter>().mesh = paperBallMesh;
+            //throwObj.GetComponent<Renderer>().material.color = Color.blue;
+            throwObj.GetComponent<MeshFilter>().mesh = paperBallMesh;
         }
         else if (_isBottle == true)
         {
             throwObj.tag = "BowlingPin";
-            throwObj.GetComponent<Renderer>().material.color = Color.gray;
-            //throwObj.GetComponent<MeshFilter>().mesh = paperBottleMesh;
-        }
-        else if (_isRod == true)
-        {
-            throwObj.tag = "MetalBat";
-            throwObj.GetComponent<Renderer>().material.color = Color.clear;
-            //throwObj.GetComponent<MeshFilter>().mesh = paperRodMesh;
+            //throwObj.GetComponent<Renderer>().material.color = Color.gray;
+            throwObj.GetComponent<MeshFilter>().mesh = paperBottleMesh;
         }
     }
 }
