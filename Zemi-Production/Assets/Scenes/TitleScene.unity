@@ -975,6 +975,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1515787724919093277, guid: 179e595148428d944ab306e951f6efe2, type: 3}
+      propertyPath: sceneToLoad
+      value: EbiFactory 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2994081411584830693, guid: 179e595148428d944ab306e951f6efe2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.03

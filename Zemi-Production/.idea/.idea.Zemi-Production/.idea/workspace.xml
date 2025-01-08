@@ -6,16 +6,131 @@
   <component name="ChangeListManager">
     <list default="true" id="d89aeb9d-251e-425f-a6f7-99048f5f3566" name="Changes" comment="両手で属性変更、ガード、ショットを出来るように変更">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/bin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/bin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/bowling_pin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/bowling_pin.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/100kin.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/100kin.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/100kin.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/100kin.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/ball.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/ball.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/bottle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/bottle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/bowling_pin.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/bowling_pin.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/enemy.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/enemy.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/gurene-do.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/gurene-do.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/kaenbin.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/kaenbin.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/kanban.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/kanban.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/skybox.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/skybox.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/yuka.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/FBX/yuka.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Materials/yuka.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Materials/yuka.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/New Lighting Settings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/New Lighting Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/100kin_lambert1_BaseMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/100kin_lambert1_BaseMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/100kin_lambert1_MaskMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/100kin_lambert1_MaskMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/100kin_lambert1_Normal.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/100kin_lambert1_Normal.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/ball_lambert1_BaseMap.1001 - Copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/ball_lambert1_BaseMap.1001 - Copy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/ball_lambert1_BaseMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/ball_lambert1_BaseMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/ball_lambert1_MaskMap.1001 - Copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/ball_lambert1_MaskMap.1001 - Copy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/ball_lambert1_MaskMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/ball_lambert1_MaskMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/ball_lambert1_Normal.1001 - Copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/ball_lambert1_Normal.1001 - Copy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/ball_lambert1_Normal.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/ball_lambert1_Normal.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bottle_lambert1_BaseMap.1001 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bottle_lambert1_BaseMap.1001 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bottle_lambert1_BaseMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bottle_lambert1_BaseMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bottle_lambert1_MaskMap.1001 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bottle_lambert1_MaskMap.1001 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bottle_lambert1_MaskMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bottle_lambert1_MaskMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bottle_lambert1_Normal.1001 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bottle_lambert1_Normal.1001 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bottle_lambert1_Normal.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bottle_lambert1_Normal.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bowling_pin_lambert1_BaseMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bowling_pin_lambert1_BaseMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bowling_pin_lambert1_MaskMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bowling_pin_lambert1_MaskMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bowling_pin_lambert1_Normal.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/bowling_pin_lambert1_Normal.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/enemy_lambert1_BaseMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/enemy_lambert1_BaseMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/enemy_lambert1_MaskMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/enemy_lambert1_MaskMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/enemy_lambert1_Normal.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/enemy_lambert1_Normal.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/gurene-do_lambert1_BaseMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/gurene-do_lambert1_BaseMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/gurene-do_lambert1_MaskMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/gurene-do_lambert1_MaskMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/gurene-do_lambert1_Normal.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/gurene-do_lambert1_Normal.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/kaenbin_lambert1_BaseMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/kaenbin_lambert1_BaseMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/kaenbin_lambert1_MaskMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/kaenbin_lambert1_MaskMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/kaenbin_lambert1_Normal.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/kaenbin_lambert1_Normal.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/kanban_TX (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/kanban_TX (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/kanban_TX2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/kanban_TX2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/lambert1_Alpha.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/lambert1_Alpha.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/lambert1_BaseColor.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/lambert1_BaseColor.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/lambert1_Displacement.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/lambert1_Displacement.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/lambert1_Metallic.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/lambert1_Metallic.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/lambert1_Normal.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/lambert1_Normal.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/lambert1_Roughness.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/lambert1_Roughness.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/yuka_lambert2_BaseMap.1001 - Copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/yuka_lambert2_BaseMap.1001 - Copy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/yuka_lambert2_BaseMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/yuka_lambert2_BaseMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/yuka_lambert2_MaskMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/yuka_lambert2_MaskMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/yuka_lambert2_Normal.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/Texture/yuka_lambert2_Normal.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/attack_animation.fbm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/attack_animation.fbm/enemy_lambert1_BaseMap.1001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/attack_animation.fbm/enemy_lambert1_BaseMap.1001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/attack_animation.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/attack_animation.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/idle_animation.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/idle_animation.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/idle_animation.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/idle_animation.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/yuka.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Model/yuka.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/gomuball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/gomuball.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/gurene-do.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/gurene-do.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/kaenbin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/kaenbin.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/metalball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/metalball.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/petbottle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/petbottle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EbiFactory 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EbiFactory 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AttributeChange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AttributeChange.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/DamegedItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/DamegedItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TitleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TitleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,12 +172,12 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "feature/fix-prefab",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;feature/fix-prefab&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Standalone Player.Start Unity">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.24f1\Editor\Unity.exe" />
@@ -110,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736354843290</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="system更新">
+      <option name="closed" value="true" />
+      <created>1736370555042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736370555042</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
@@ -118,6 +241,7 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="両手で属性変更、ガード、ショットを出来るように変更" />
-    <option name="LAST_COMMIT_MESSAGE" value="両手で属性変更、ガード、ショットを出来るように変更" />
+    <MESSAGE value="system更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="system更新" />
   </component>
 </project>
