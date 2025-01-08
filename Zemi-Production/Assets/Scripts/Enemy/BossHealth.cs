@@ -19,6 +19,8 @@ namespace Enemy
         private float time = 0;
         [SerializeField] private float coolTime = 5;
 
+        private bool alive = true;
+
         private bool bin = false;
         private bool fireBin = false;
         private bool bowlingPin = false;
@@ -54,7 +56,7 @@ namespace Enemy
                 changeWeakness = true;
             }
 
-            if (changeWeakness)
+            if (changeWeakness && alive)
             {
                 ChangeWeakness();
                 ShowWeakness();
@@ -240,6 +242,7 @@ namespace Enemy
             BossHealthBar.value = bossHealth / bossMaxHealth;
             if (bossHealth <= 0)
             {
+                alive = false;
                 restartSwitch.SetActive(true);
             }
         }
