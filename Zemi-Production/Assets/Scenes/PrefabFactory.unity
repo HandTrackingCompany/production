@@ -1983,6 +1983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossClass
       objectReference: {fileID: 0}
+    - target: {fileID: 495472294228784019, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8530e08b93761d740a1b4e6337abb88d, type: 2}
     - target: {fileID: 2750473225335141310, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
       propertyPath: m_Name
       value: Effect
@@ -2067,6 +2071,10 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8344440773213520904, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8530e08b93761d740a1b4e6337abb88d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
