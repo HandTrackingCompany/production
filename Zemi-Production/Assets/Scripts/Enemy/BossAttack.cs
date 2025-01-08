@@ -20,7 +20,8 @@ namespace Enemy
         [SerializeField] private float coolTime = 5;
         private float time;
         private bool chooseNumber = false;
-        [SerializeField] private float chargeTime = 3; 
+        [SerializeField] private float chargeTime = 3;
+        [SerializeField] private Animator animation;
         
         [SerializeField] private AudioClip[] clip;
         protected AudioSource source;
@@ -50,6 +51,7 @@ namespace Enemy
                 if (rnd == randomValue)
                 {
                     chargeParticle.Play(); 
+                    animation.SetTrigger("Attack");
                     source.PlayOneShot(clip[0]);
                 }
             }
