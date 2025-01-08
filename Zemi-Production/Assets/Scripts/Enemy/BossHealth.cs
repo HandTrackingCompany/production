@@ -30,6 +30,12 @@ namespace Enemy
         [SerializeField] private GameObject restartSwitch;
         [SerializeField] private AudioClip[] clip;
         protected AudioSource source;
+        
+        [SerializeField] private GameObject goo;
+        [SerializeField] private GameObject scissors;
+        [SerializeField] private GameObject paper;
+        [SerializeField] private GameObject ball;
+        [SerializeField] private GameObject bottle;
         private void Start()
         {
             bossMaxHealth = bossHealth;
@@ -61,26 +67,38 @@ namespace Enemy
             if (bin)
             {
                 weaknessFlag.material.color = Color.cyan;
+                goo.SetActive(true);
+                bottle.SetActive(true);
             }
             else if (fireBin)
             {
                 weaknessFlag.material.color = Color.red;
+                scissors.SetActive(true);
+                bottle.SetActive(true);
             }
             else if (bowlingPin)
             {
                 weaknessFlag.material.color = Color.gray;
+                paper.SetActive(true);
+                bottle.SetActive(true);
             }
             else if (ironBall)
             {
                 weaknessFlag.material.color = Color.yellow;
+                goo.SetActive(true);
+                ball.SetActive(true);
             }
             else if (grenade)
             {
                 weaknessFlag.material.color = Color.black;
+                scissors.SetActive(true);
+                ball.SetActive(true);
             }
             else if (bowlingBall)
             {
                 weaknessFlag.material.color = Color.blue;
+                paper.SetActive(true);
+                ball.SetActive(true);
             }
         }
 
@@ -210,6 +228,11 @@ namespace Enemy
             ironBall = false;
             grenade = false;
             bowlingBall = false;
+            goo.SetActive(false);
+            scissors.SetActive(false);
+            paper.SetActive(false);
+            ball.SetActive(false);
+            bottle.SetActive(false);
         }
 
         private void UpDateBossHealthBar()
