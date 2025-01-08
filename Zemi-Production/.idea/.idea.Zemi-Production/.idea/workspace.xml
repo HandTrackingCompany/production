@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89aeb9d-251e-425f-a6f7-99048f5f3566" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/attack_animation.fbm/enemy_lambert1_BaseMap.1001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Model/animation/attack_animation.fbm/enemy_lambert1_BaseMap.1001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/attack_animation.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Model/animation/attack_animation.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/idle_animation.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Model/animation/idle_animation.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/idle_animation.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Model/animation/idle_animation.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BossClass.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BossClass.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    <list default="true" id="d89aeb9d-251e-425f-a6f7-99048f5f3566" name="Changes" comment="両手で属性変更、ガード、ショットを出来るように変更">
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +16,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="develop" />
+        <entry key="$PROJECT_DIR$/.." value="feature/add-rightGesture" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectLevelVcsManager">
@@ -82,12 +76,22 @@
     </configuration>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="両手で属性変更、ガード、ショットを出来るように変更">
+      <option name="closed" value="true" />
+      <created>1736354843290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736354843290</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="両手で属性変更、ガード、ショットを出来るように変更" />
+    <option name="LAST_COMMIT_MESSAGE" value="両手で属性変更、ガード、ショットを出来るように変更" />
   </component>
 </project>
