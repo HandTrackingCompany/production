@@ -6,14 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d89aeb9d-251e-425f-a6f7-99048f5f3566" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/attack_animation.fbm/enemy_lambert1_BaseMap.1001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Model/animation/attack_animation.fbm/enemy_lambert1_BaseMap.1001.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/attack_animation.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Model/animation/attack_animation.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/idle_animation.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Model/animation/idle_animation.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Model/animation/idle_animation.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Model/animation/idle_animation.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BossClass.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BossClass.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +28,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/boss-weeknessf-fix",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
