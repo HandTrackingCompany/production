@@ -31,6 +31,17 @@ public class AttributeChange : MonoBehaviour
     [SerializeField] Mesh scissorsBottleMesh;
     [SerializeField] Mesh paperBottleMesh;
     
+    [SerializeField] GameObject LockBall;
+    [SerializeField] GameObject ScissorsBall;
+    [SerializeField] GameObject PaperBall;
+    
+    [SerializeField] GameObject LockBottle;
+    [SerializeField] GameObject ScissorsBottle;
+    [SerializeField] GameObject PaperBottle;
+
+    private Vector3 currentPosition;
+    private Quaternion currentRotation;
+    
     // [SerializeField] Mesh lockRodMesh;
     // [SerializeField] Mesh scissorsRodMesh;
     // [SerializeField] Mesh paperRodMesh;
@@ -46,7 +57,8 @@ public class AttributeChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        currentPosition = transform.position;
+        currentRotation = transform.rotation;
     }
     
     public void SetThrow(GameObject obj)
@@ -82,13 +94,19 @@ public class AttributeChange : MonoBehaviour
         {
             throwObj.tag = _ballLTag;
             //throwObj.GetComponent<Renderer>().material.color = Color.yellow;
-            throwObj.GetComponent<MeshFilter>().mesh = lockBallMesh;
+            //throwObj.GetComponent<MeshFilter>().mesh = lockBallMesh;
+            Instantiate(LockBottle, throwObj.transform.position, throwObj.transform.rotation);
+            Debug.Log("aaa");
+            Destroy(throwObj);
         }
         else if (_isBottle == true)
         {
             throwObj.tag = _bottleLTag;
             //throwObj.GetComponent<Renderer>().material.color = Color.cyan;
-            throwObj.GetComponent<MeshFilter>().mesh = lockBottleMesh;
+            //throwObj.GetComponent<MeshFilter>().mesh = lockBottleMesh;
+            Instantiate(LockBottle, throwObj.transform.position, throwObj.transform.rotation);
+            Debug.Log("bbb");
+            Destroy(throwObj);
         }
     }
 
@@ -98,13 +116,19 @@ public class AttributeChange : MonoBehaviour
         {
             throwObj.tag = _ballSTag;
             //throwObj.GetComponent<Renderer>().material.color = Color.black;
-            throwObj.GetComponent<MeshFilter>().mesh = scissorsBallMesh;
+            //throwObj.GetComponent<MeshFilter>().mesh = scissorsBallMesh;
+            Instantiate(scissorsBallMesh, throwObj.transform.position, throwObj.transform.rotation);
+            Debug.Log("ccc");
+            Destroy(throwObj);
         }
         else if (_isBottle == true)
         {
             throwObj.tag = _bottleSTag;
             //throwObj.GetComponent<Renderer>().material.color = Color.red;
-            throwObj.GetComponent<MeshFilter>().mesh = scissorsBottleMesh;
+            //throwObj.GetComponent<MeshFilter>().mesh = scissorsBottleMesh;
+            Instantiate(ScissorsBottle, throwObj.transform.position, throwObj.transform.rotation);
+            Debug.Log("ddd");
+            Destroy(throwObj);
         }
     }
 
@@ -114,13 +138,19 @@ public class AttributeChange : MonoBehaviour
         {
             throwObj.tag = "BowlingBall";
             //throwObj.GetComponent<Renderer>().material.color = Color.blue;
-            throwObj.GetComponent<MeshFilter>().mesh = paperBallMesh;
+            //throwObj.GetComponent<MeshFilter>().mesh = paperBallMesh;
+            Instantiate(PaperBall, throwObj.transform.position, throwObj.transform.rotation);
+            Debug.Log("eee");
+            Destroy(throwObj);
         }
         else if (_isBottle == true)
         {
             throwObj.tag = "BowlingPin";
             //throwObj.GetComponent<Renderer>().material.color = Color.gray;
-            throwObj.GetComponent<MeshFilter>().mesh = paperBottleMesh;
+            //throwObj.GetComponent<MeshFilter>().mesh = paperBottleMesh;
+            Instantiate(PaperBottle, throwObj.transform.position, throwObj.transform.rotation);
+            Debug.Log("fff");
+            Destroy(throwObj);
         }
     }
 }

@@ -17,7 +17,6 @@ namespace Item
         private void Start()
         {
             thisColor = GetComponent<Renderer>();
-            thisColor.material.color = Color.white;
             startPosition = transform.position;
             repopItem = gameObject;
             
