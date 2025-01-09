@@ -697,11 +697,11 @@ PrefabInstance:
     - target: {fileID: 397236605750349879, guid: d6fe2531b2887704481f6aaf76b56ad1, type: 3}
       propertyPath: lockBallMesh
       value: 
-      objectReference: {fileID: 7479997029363590899, guid: 37a1b8b16d790894a8a08ab876846812, type: 3}
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 397236605750349879, guid: d6fe2531b2887704481f6aaf76b56ad1, type: 3}
       propertyPath: paperBallMesh
       value: 
-      objectReference: {fileID: 7479997029363590899, guid: 37a1b8b16d790894a8a08ab876846812, type: 3}
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 397236605750349879, guid: d6fe2531b2887704481f6aaf76b56ad1, type: 3}
       propertyPath: ScissorsBottle
       value: 
@@ -1158,6 +1158,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 921f8c561779e6744a22dbe79fbb88e4, type: 3}
+--- !u!1 &589303237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6588637999476704406, guid: 8d69e9c1a9261fc46a276be87df11a93, type: 3}
+  m_PrefabInstance: {fileID: 34830642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &654750321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6134660076858704164, guid: 8d69e9c1a9261fc46a276be87df11a93, type: 3}
@@ -1293,7 +1298,7 @@ PrefabInstance:
     - target: {fileID: 3606746530850180200, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
       propertyPath: ball
       value: 
-      objectReference: {fileID: 455588334}
+      objectReference: {fileID: 204419650}
     - target: {fileID: 3606746530850180200, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
       propertyPath: paper
       value: 
@@ -1301,11 +1306,35 @@ PrefabInstance:
     - target: {fileID: 3606746530850180200, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
       propertyPath: bottle
       value: 
-      objectReference: {fileID: 204419650}
+      objectReference: {fileID: 455588334}
+    - target: {fileID: 3606746530850180200, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
+      propertyPath: Kaenbin
+      value: 
+      objectReference: {fileID: 1713099503}
     - target: {fileID: 3606746530850180200, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
       propertyPath: scissors
       value: 
       objectReference: {fileID: 686296152}
+    - target: {fileID: 3606746530850180200, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
+      propertyPath: MetalBall
+      value: 
+      objectReference: {fileID: 589303237}
+    - target: {fileID: 3606746530850180200, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
+      propertyPath: petbottle
+      value: 
+      objectReference: {fileID: 455588334}
+    - target: {fileID: 3606746530850180200, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
+      propertyPath: BowlingPin
+      value: 
+      objectReference: {fileID: 1898853966}
+    - target: {fileID: 3606746530850180200, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
+      propertyPath: BowlingBall
+      value: 
+      objectReference: {fileID: 204419650}
+    - target: {fileID: 3606746530850180200, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
+      propertyPath: GrenadeBall
+      value: 
+      objectReference: {fileID: 1245237627}
     - target: {fileID: 3606746530850180200, guid: e0ca0985cc3e0454aa0754683b6bb481, type: 3}
       propertyPath: weaknessFlag
       value: 
@@ -1511,6 +1540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndSwitch
       objectReference: {fileID: 0}
+    - target: {fileID: 4684346202838026919, guid: b136cb6013d06914aaf73bcbcc84a6e6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6860642059582494778, guid: b136cb6013d06914aaf73bcbcc84a6e6, type: 3}
       propertyPath: sceneToLoad
       value: EbiFactory 1
@@ -1576,6 +1609,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ee2e8a62416a346990d926f760767f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1245237627 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2342355062780383719, guid: 8d69e9c1a9261fc46a276be87df11a93, type: 3}
+  m_PrefabInstance: {fileID: 34830642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1300397016 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5128367387182566056, guid: dd319dc8cc81a014caec9028cf044a19, type: 3}
@@ -1609,6 +1647,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 009fe62e7687418c81668bc9944c8565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1713099503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4842377406386221961, guid: 8d69e9c1a9261fc46a276be87df11a93, type: 3}
+  m_PrefabInstance: {fileID: 34830642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1762780336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1736,6 +1779,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 921f8c561779e6744a22dbe79fbb88e4, type: 3}
+--- !u!1 &1898853966 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4923036307293400400, guid: 8d69e9c1a9261fc46a276be87df11a93, type: 3}
+  m_PrefabInstance: {fileID: 34830642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2009009893
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ namespace Item
         private Vector3 startPosition;
 
         private GameObject repopItem;
+        private Mesh repopMesh;
 
         public float attackDamage;
 
@@ -19,6 +20,7 @@ namespace Item
             thisColor = GetComponent<Renderer>();
             startPosition = transform.position;
             repopItem = gameObject;
+            repopMesh = GetComponent<MeshFilter>().mesh;
             
             if (gameObject.CompareTag("Bottle")||gameObject.CompareTag("Bin")||
                 gameObject.CompareTag("FireBin")||gameObject.CompareTag("BowlingPin"))
@@ -32,10 +34,13 @@ namespace Item
                 attackDamage = damage.BallDamage;
                 gameObject.tag = "Ball";
             }
+            Debug.Log(("damage:"+attackDamage));
         }
 
         private void Repop()
         {
+            repopItem.GetComponent<MeshFilter>().mesh = repopMesh;
+            repopItem.GetComponent<Renderer>().material.color = default;
             Instantiate(repopItem,startPosition,Quaternion.identity);
             Destroy(this.gameObject);
         }

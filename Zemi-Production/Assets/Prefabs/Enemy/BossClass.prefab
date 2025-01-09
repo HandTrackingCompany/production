@@ -5493,6 +5493,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2184139563448617824, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
+      propertyPath: bossHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184139563448617824, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
       propertyPath: weaknessFlag
       value: 
       objectReference: {fileID: 0}
@@ -5535,6 +5539,10 @@ PrefabInstance:
     - target: {fileID: 3589592438378173337, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383876261132019111, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8095774990275697521, guid: b0cce141859e39d4490ebb3d60c129cb, type: 3}
       propertyPath: m_LocalScale.x
