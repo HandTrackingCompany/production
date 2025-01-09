@@ -73,9 +73,18 @@ MonoBehaviour:
   lockBottleMesh: {fileID: 0}
   scissorsBottleMesh: {fileID: 0}
   paperBottleMesh: {fileID: 0}
-  lockRodMesh: {fileID: 0}
-  scissorsRodMesh: {fileID: 0}
-  paperRodMesh: {fileID: 0}
+  lockBallMaterial: {fileID: 2100000, guid: dd94d8982c7262f4a8942a018264b0a0, type: 2}
+  scissorsBallMaterial: {fileID: 2100000, guid: 9c0b615c96c28ff4f9acae11decb702b, type: 2}
+  paperBallMaterial: {fileID: 2100000, guid: db1fecdd48448b449b8d88f04c13952c, type: 2}
+  lockBottleMaterial: {fileID: 2100000, guid: c5b066550ba00f648b0a472e9dde70f6, type: 2}
+  scissorsBottleMaterial: {fileID: 2100000, guid: 4c596867283ea144884db28fcd1f91a6, type: 2}
+  paperBottleMaterial: {fileID: 2100000, guid: 9f75c9e4e3c99294295dea2f9c30152b, type: 2}
+  LockBall: {fileID: 0}
+  ScissorsBall: {fileID: 0}
+  PaperBall: {fileID: 0}
+  LockBottle: {fileID: 0}
+  ScissorsBottle: {fileID: 0}
+  PaperBottle: {fileID: 0}
 --- !u!114 &6137559625040699840
 MonoBehaviour:
   m_ObjectHideFlags: 0
