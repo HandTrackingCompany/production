@@ -37,7 +37,7 @@ namespace Item
             Debug.Log(("damage:"+attackDamage));
         }
 
-        private void Repop()
+        public void Repop()
         {
             repopItem.GetComponent<MeshFilter>().mesh = repopMesh;
             repopItem.GetComponent<Renderer>().material.color = default;

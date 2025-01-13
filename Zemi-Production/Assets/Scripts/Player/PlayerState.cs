@@ -19,6 +19,8 @@ namespace Player
 
         [SerializeField] private AudioClip[] clip;
         protected AudioSource source;
+
+        [SerializeField] private ParticleSystem gurad;
     
         private void Start()
         {
@@ -41,6 +43,7 @@ namespace Player
             else
             {
                 source.PlayOneShot(clip[1]);
+                gurad.Play();
             }
         }
 
@@ -60,6 +63,11 @@ namespace Player
         public void UpdateHealthBar()
         {
             PlayerHelthBar.value = Helth / playerMaxHelth;
+        }
+
+        public float PlayerHelth()
+        {
+            return Helth;
         }
     }
 }

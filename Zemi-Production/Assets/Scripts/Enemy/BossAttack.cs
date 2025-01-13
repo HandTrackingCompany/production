@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using Item;
 using Player;
 using Unity.VisualScripting;
@@ -13,6 +14,9 @@ namespace Enemy
         [SerializeField] private float DamagedItemPower = 10;
 
         [SerializeField] private ParticleSystem chargeParticle;
+        [SerializeField] private ParticleSystem part1;
+        [SerializeField] private ParticleSystem part2;
+        [SerializeField] private ParticleSystem part3;
 
         public PlayerState player;
         private int rnd = 0;
@@ -30,6 +34,9 @@ namespace Enemy
         {
             chargeParticle.Stop();
             source = GetComponent<AudioSource>();
+            part1.Stop();
+            part2.Stop();
+            part3.Stop();
         }
 
         private void Update()
@@ -53,6 +60,7 @@ namespace Enemy
                     chargeParticle.Play(); 
                     animation.SetTrigger("Attack");
                     source.PlayOneShot(clip[0]);
+                    StartCoroutine(AttackEffect());
                 }
             }
             
@@ -70,6 +78,23 @@ namespace Enemy
                 chooseNumber = false;
                 time = 0;
             }
+        }
+
+        private IEnumerator AttackEffect()
+        {
+            yield return new WaitForSeconds(1.4f);
+            
+            part1.Play();
+            yield return new WaitForSeconds(0.5f);
+            part1.Stop();
+            
+            part2.Play();
+            yield return new WaitForSeconds(0.5f);
+            part2.Stop();
+            
+            part3.Play();
+            yield return new WaitForSeconds(0.5f);
+            part3.Stop();
         }
 
 

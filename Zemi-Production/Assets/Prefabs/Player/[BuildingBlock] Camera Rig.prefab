@@ -32512,7 +32512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _controller: {fileID: 1614874887996018910}
-  _ovrControllerHelper: {fileID: 0}
+  _ovrControllerHelper: {fileID: 7550940171880439793}
 --- !u!1 &4416733845008829144
 GameObject:
   m_ObjectHideFlags: 0
@@ -45820,6 +45820,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 3cfdf57e8e410ea4dbd193c126fa8bd0, type: 3}
   - {fileID: 8300000, guid: 34bfd74b999233e40ba44c2dc4db5b08, type: 3}
   - {fileID: 8300000, guid: afab956ffb27b484e85b9ed954a5bc57, type: 3}
+  gurad: {fileID: 0}
 --- !u!82 &508761723615866978
 AudioSource:
   m_ObjectHideFlags: 0
@@ -49924,7 +49925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _controller: {fileID: 9108623941204302136}
-  _ovrControllerHelper: {fileID: 0}
+  _ovrControllerHelper: {fileID: 8908761583670399206}
 --- !u!1 &7155587641666765792
 GameObject:
   m_ObjectHideFlags: 0

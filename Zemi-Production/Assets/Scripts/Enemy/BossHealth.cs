@@ -1,5 +1,7 @@
 ﻿using System;
 using Item;
+using Player;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
@@ -18,6 +20,9 @@ namespace Enemy
 
         private float time = 0;
         [SerializeField] private float coolTime = 5;
+        private float clearTime = 0;
+        [SerializeField] private TextMeshProUGUI clearTimeText;
+        [SerializeField] private Score score;
 
         private bool alive = true;
 
@@ -54,6 +59,8 @@ namespace Enemy
 
         private void Update()
         {
+            clearTime += Time.deltaTime;
+            clearTimeText.text = "Time:" + clearTime.ToString("F2");
             if (time > 0)
             {
                 time -= Time.deltaTime;
@@ -150,10 +157,12 @@ namespace Enemy
                     time = 0;
                     source.PlayOneShot(clip[0]);
                     AllFalse();
+                    other.gameObject.GetComponent<DamegedItem>().Repop();
                 }
                 else
                 {
                     source.PlayOneShot(clip[1]);
+                    other.gameObject.GetComponent<DamegedItem>().Repop();
                 }
             }
             else if (other.gameObject.CompareTag("FireBin"))
@@ -164,10 +173,12 @@ namespace Enemy
                     time = 0;
                     source.PlayOneShot(clip[0]);
                     AllFalse();
+                    other.gameObject.GetComponent<DamegedItem>().Repop();
                 }
                 else
                 {
                     source.PlayOneShot(clip[1]);
+                    other.gameObject.GetComponent<DamegedItem>().Repop();
                 }
             }
             else if (other.gameObject.CompareTag("BowlingPin"))
@@ -178,10 +189,12 @@ namespace Enemy
                     time = 0;
                     source.PlayOneShot(clip[0]);
                     AllFalse();
+                    other.gameObject.GetComponent<DamegedItem>().Repop();
                 }
                 else
                 {
                     source.PlayOneShot(clip[1]);
+                    other.gameObject.GetComponent<DamegedItem>().Repop();
                 }
             }
             else if (other.gameObject.CompareTag("IronBall"))
@@ -192,10 +205,12 @@ namespace Enemy
                     time = 0;
                     source.PlayOneShot(clip[0]);
                     AllFalse();
+                    other.gameObject.GetComponent<DamegedItem>().Repop();
                 }
                 else
                 {
                     source.PlayOneShot(clip[1]);
+                    other.gameObject.GetComponent<DamegedItem>().Repop();
                 }
             }
             else if (other.gameObject.CompareTag("Grenade"))
@@ -206,10 +221,12 @@ namespace Enemy
                     time = 0;
                     source.PlayOneShot(clip[0]);
                     AllFalse();
+                    other.gameObject.GetComponent<DamegedItem>().Repop();
                 }
                 else
                 {
                     source.PlayOneShot(clip[1]);
+                    other.gameObject.GetComponent<DamegedItem>().Repop();
                 }
             }
             else if (other.gameObject.CompareTag("BowlingBall"))
@@ -220,10 +237,12 @@ namespace Enemy
                     time = 0;
                     source.PlayOneShot(clip[0]);
                     AllFalse();
+                    other.gameObject.GetComponent<DamegedItem>().Repop();
                 }
                 else
                 {
                     source.PlayOneShot(clip[1]);
+                    other.gameObject.GetComponent<DamegedItem>().Repop();
                 }
             }
             UpDateBossHealthBar();
@@ -257,7 +276,19 @@ namespace Enemy
             {
                 alive = false;
                 restartSwitch.SetActive(true);
+                score.Result();
+                source.PlayOneShot(clip[3]);
             }
+        }
+
+        public float Hp()
+        {
+            return bossHealth;
+        }
+
+        public float ClearTime()
+        {
+            return clearTime;
         }
     }
 }
