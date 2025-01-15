@@ -18,7 +18,7 @@ namespace Player
         {
             playerHP = playerState.PlayerHelth();
             time = bossHealth.ClearTime();
-            total = time + playerHP / 10;
+            total = time * playerHP / 10;
             ScoreText.text = "Score : " + total.ToString("F2");
         }
     }

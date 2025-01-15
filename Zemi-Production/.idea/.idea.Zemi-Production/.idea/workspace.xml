@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89aeb9d-251e-425f-a6f7-99048f5f3566" name="Changes" comment="両手で属性変更、ガード、ショットを出来るように変更">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Score.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Score.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/projectSettingsUpdater.xml" afterDir="false" />
+    <list default="true" id="d89aeb9d-251e-425f-a6f7-99048f5f3566" name="Changes" comment="タイムの設定　スコアの表示　攻撃とガードのエフェクト追加　クリア後のSE追加&#10;設定はEBI2を参照">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zemi-Production/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/MaterialEbi/Model/animation/idle_animation.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/MaterialEbi/Model/animation/idle_animation.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/OculusProjectConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BossClass.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy/BossClass.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Stage/EndSwitch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Stage/EndSwitch.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Stage/Weeknwss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Stage/Weeknwss.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BossHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item/DamegedItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item/DamegedItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +21,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Prefabs/Player/[BuildingBlock] Camera Rig.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/HandTrackingCompany/Zemi-Production/Assets/Scripts/Enemy/BossAttack.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/IdentificationItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.core@64.0.0/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs" root0="SKIP_HIGHLIGHTING" />
@@ -128,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736370555042</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="タイムの設定　スコアの表示　攻撃とガードのエフェクト追加　クリア後のSE追加&#10;設定はEBI2を参照">
+      <option name="closed" value="true" />
+      <created>1736782145013</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736782145013</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +149,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="両手で属性変更、ガード、ショットを出来るように変更" />
     <MESSAGE value="system更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="system更新" />
+    <MESSAGE value="タイムの設定　スコアの表示　攻撃とガードのエフェクト追加　クリア後のSE追加&#10;設定はEBI2を参照" />
+    <option name="LAST_COMMIT_MESSAGE" value="タイムの設定　スコアの表示　攻撃とガードのエフェクト追加　クリア後のSE追加&#10;設定はEBI2を参照" />
   </component>
 </project>
